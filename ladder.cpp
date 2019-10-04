@@ -1,7 +1,6 @@
 #include<iostream.h>
-#include<conio.h>
 #include<stdio.h>
-#include<ctype.h>
+#include<system.h>
 void main()
 {
  int a,b,c,d;
@@ -25,5 +24,5 @@ void main()
   b--;
   c++;
  }
- getch();
+ system("PAUSE");
 }
