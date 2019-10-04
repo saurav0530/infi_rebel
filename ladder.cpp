@@ -1,0 +1,29 @@
+#include<iostream.h>
+#include<conio.h>
+#include<stdio.h>
+#include<ctype.h>
+void main()
+{
+ int a,b,c,d;
+ cout<<"Enter odd length : ";
+ cin>>a;
+ b=c=a/2;
+ if((a%2)==0)
+ d=a/2;
+ else
+ d=(a/2)+1;
+ for(int j=1;j<=d;j++)
+ {
+  for(int i=0;i<=a;i++)
+  {
+   if((i<b)||(i>c))
+   cout<<"   ";
+   if((i>=b)&&(i<=c))
+   cout<<" # ";
+  }
+  cout<<endl;
+  b--;
+  c++;
+ }
+ getch();
+}
