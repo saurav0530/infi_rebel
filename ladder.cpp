@@ -3,7 +3,7 @@
 #include<system.h>
 void main()
 {
- int a,b,c,d;
+ int a,b,c,d,e;
  cout<<"Enter odd length : ";
  cin>>a;
  b=c=a/2;
