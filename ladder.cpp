@@ -4,7 +4,7 @@
 void main()
 {
  int a,b,c,d;
- cout<<"Enter odd length : ";
+ cout<<"Enter odd length : Please";
  cin>>a;
  b=c=a/2;
  if((a%2)==0)
@@ -24,5 +24,6 @@ void main()
   b--;
   c++;
  }
+ cout<<"Done";
  system("PAUSE");
 }
