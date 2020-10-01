@@ -3,12 +3,12 @@
 #include<system.h>
 void main()
 {
- int a,b,c,d;
- cout<<"Enter odd length : Please";
+  int a,b,c,d,e;
+ cout<<"Enter odd length : ";
  cin>>a;
  b=c=a/2;
  if((a%2)==0)
- d=a/2;
+ e=a/2;
  else
  d=(a/2)+1;
  for(int j=1;j<=d;j++)
