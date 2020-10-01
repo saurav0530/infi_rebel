@@ -4,6 +4,7 @@
 void main()
 {
  int a,b,c,d;
+cout<<"welcome";
  cout<<"Enter odd length : ";
  cin>>a;
  b=c=a/2;
