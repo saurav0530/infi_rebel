@@ -11,7 +11,7 @@ void main()
  e=a/2;
  else
  d=(a/2)+1;
- for(int j=1;j<=d;j++)
+ for(int j=1;j<=d;j++)                  // this is a very simple programme and needs no commets
  {
   for(int i=0;i<=a;i++)
   {
